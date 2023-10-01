@@ -1,0 +1,4 @@
+username: 'Mihger'
+password: '583510e7ba'
+url: 'https://test-stand.gb.ru/gateway/login'
+url_post: 'https://test-stand.gb.ru/api/posts' 
