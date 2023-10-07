@@ -1,0 +1,10 @@
+adress: https://test-stand.gb.ru
+browser: chrome
+sleep_time:  5
+
+login: Mihger
+password: 583510e7ba
+
+
+url: https://test-stand.gb.ru/gateway/login
+url_post: https://test-stand.gb.ru/api/posts

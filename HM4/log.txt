@@ -1,0 +1,320 @@
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+ERROR:root:Exceprion while operation with ('xpath', '//*[@id="login"]/div[1]/label/input[1]')
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\testpage.py", line 36, in enter_text_into_field
+    field[0].send_keys(word)
+    ~~~~~^^^
+IndexError: list index out of range
+ERROR:root:Exceprion while operation with ('xpath', '//*[@id="login"]/div[2]/label/input[1]')
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\testpage.py", line 36, in enter_text_into_field
+    field[0].send_keys(word)
+    ~~~~~^^^
+IndexError: list index out of range
+ERROR:root:Exceprion with click
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\testpage.py", line 52, in click_button
+    button.click()
+    ^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'click'
+ERROR:root:FAIL
+INFO:root:Test 3 starting
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can`t find element by locator ('xpath', '//*[@id="create-item"]/div/div/div[1]/div/label/input')
+
+ERROR:root:Element ('xpath', '//*[@id="create-item"]/div/div/div[1]/div/label/input') not found
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can`t find element by locator ('xpath', '//*[@id="create-item"]/div/div/div[2]/div/label/span/textarea')
+
+ERROR:root:Element ('xpath', '//*[@id="create-item"]/div/div/div[2]/div/label/span/textarea') not found
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can`t find element by locator ('xpath', '//*[@id="create-item"]/div/div/div[3]/div/label/span/textarea')
+
+ERROR:root:Element ('xpath', '//*[@id="create-item"]/div/div/div[3]/div/label/span/textarea') not found
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 92, in until
+    time.sleep(self._poll)
+KeyboardInterrupt
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can`t find element by locator ('xpath', '//*[@id="create-item"]/div/div/div[1]/div/label/input')
+
+INFO:root:Test 4 starting
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can`t find element by locator ('xpath', '/*[@id="contact"]/div[4]/button/span')
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can`t find element by locator ('xpath', '//*[@id="create-item"]/div/div/div[1]/div/label/input')
+
+INFO:root:Test 4 starting
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 92, in until
+    time.sleep(self._poll)
+KeyboardInterrupt
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+ERROR:root:FAIL
+INFO:root:Test 3 starting
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can`t find element by locator ('xpath', '//*[@id="create-item"]/div/div/div[1]/div/label/input')
+
+INFO:root:Test 4 starting
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 92, in until
+    time.sleep(self._poll)
+KeyboardInterrupt
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+ERROR:root:FAIL
+INFO:root:Test 3 starting
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can`t find element by locator ('xpath', '//*[@id="create-item"]/div/div/div[1]/div/label/input')
+
+INFO:root:Test 4 starting
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 92, in until
+    time.sleep(self._poll)
+KeyboardInterrupt
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+INFO:root:Test 4 starting
+ERROR:root:Find element exception
+Traceback (most recent call last):
+  File "E:\root\Python-Testing-Auto-web\HM4\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator), message=f'Can`t find element by locator {locator}')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\root\Python-Testing-Auto-web\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can`t find element by locator ('xpath', '/*[@id="contact"]/div[4]/button/span')
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+INFO:root:Test 4 starting
+INFO:root:Get alert text
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+INFO:root:Test 4 starting
+INFO:root:Get alert text
+INFO:root:Form successfully submitted
+INFO:root:alert accepted
+ERROR:root:no alert
+INFO:root:False
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+INFO:root:Test 4 starting
+INFO:root:Get alert text
+INFO:root:Form successfully submitted
+INFO:root:alert accepted
+INFO:root:Form successfully submitted
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+INFO:root:Test 4 starting
+INFO:root:Get alert text
+INFO:root:Form successfully submitted
+INFO:root:alert accepted
+INFO:root:Form successfully submitted
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+INFO:root:Test 4 starting
+INFO:root:Get alert text
+INFO:root:Form successfully submitted
+INFO:root:alert accepted
+INFO:root:Form successfully submitted
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+INFO:root:Test 4 starting
+INFO:root:Get alert text
+INFO:root:Form successfully submitted
+INFO:root:alert accepted
+INFO:root:Form successfully submitted
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+INFO:root:Test 4 starting
+INFO:root:Get alert text
+INFO:root:Form successfully submitted
+INFO:root:alert accepted
+INFO:root:Form successfully submitted
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+INFO:root:Test 4 starting
+INFO:root:Get alert text
+INFO:root:Form successfully submitted
+INFO:root:alert accepted
+INFO:root:Form successfully submitted
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\Sveta\.wdm\drivers\chromedriver\win64\117.0.5938.149\chromedriver-win32/chromedriver.exe] found in cache
+INFO:root:Test 1 starting
+INFO:root:SUCCESS
+INFO:root:Test 2 starting
+INFO:root:SUCCESS
+INFO:root:Test 3 starting
+INFO:root:Test 4 starting
+INFO:root:Get alert text
+INFO:root:Form successfully submitted
+INFO:root:alert accepted
+INFO:root:Form successfully submitted
+INFO:root:Test 5 starting
+INFO:root:SUCCESS
+INFO:root:Test 6 starting
+INFO:root:SUCCESS
